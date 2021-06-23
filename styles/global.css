@@ -85,7 +85,8 @@ button, .button{
     cursor: pointer;
 }
 
-button:hover, .button:hover{
+button:hover,
+.button:hover{
     filter: brightness(1.2);
 }
 
@@ -105,6 +106,21 @@ button.outlined,
 
 }
 
+button.red,
+.button.red{
+background: var(--red);
+color: var(--white);
+
+}
+
+button.grey,
+.button.grey{
+background: var(--grey-light);
+color: var(--grey-dark);
+
+}
+
+/* =========Header=========== */
 .content header{
 
     width: 80%;

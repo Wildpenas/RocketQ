@@ -9,6 +9,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/room.css">
+    <link rel="stylesheet" href="styles/modal.css">
 
     <!-- FONTES -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -80,10 +81,10 @@
                     <div class="question-wrapper">
                         <div class="question-content">
                             <div class="user">
-                                <img src="assets/avatar.svg" alt="avatar">
+                                <img src="assets/user.svg" alt="user">
                             </div>
                             <div class="question">
-                                <p>qual a diferenca entre const varb e let no javascript</p>
+                                <p>Qual a diferenca entre const, var e let no javascript</p>
                             </div>    
 
                         </div>
@@ -92,6 +93,74 @@
                                 <img src="assets/check.svg" alt="Marcar como lida">
                                 Marcar como lida
                             </a>    
+                            <a href="#" class="delete">
+                                <img src="assets/trash.svg" alt="Excluir">
+                                Excluir
+                            </a>
+                        </div>
+                    </div>
+                    <!-- question-wrapper -->
+
+                    <div class="question-wrapper">
+                        <div class="question-content">
+                            <div class="user">
+                                <img src="assets/user.svg" alt="user">
+                            </div>
+                            <div class="question">
+                                <p>Estão gostando da NLW?</p>
+                            </div>    
+
+                        </div>
+                        <div class="actions">
+                            <a href="#" class="check">
+                                <img src="assets/check.svg" alt="Marcar como lida">
+                                Marcar como lida
+                            </a>    
+                            <a href="#" class="delete">
+                                <img src="assets/trash.svg" alt="Excluir">
+                                Excluir
+                            </a>
+                        </div>
+                    </div>
+                    <!-- question-wrapper -->
+                    <div class="question-wrapper">
+                        <div class="question-content">
+                            <div class="user">
+                                <img src="assets/user.svg" alt="user">
+                            </div>
+                            <div class="question">
+                                <p>Dúvidas sobre mecanismos da contratação da mão-de-obra estrangeira?
+                                    Esclarecimento sobre a legislação laboral vigente, nos termos da Lei nº 23/2007 de 1 de Agosto e o Regulamento sobre os Mecanismos e Procedimentos sobre a Contratação de cidadãos de nacionalidade estrangeira aprovado pelo Decreto nº 55/2008 de 30 de Dezembro. 
+                                    Dúvidas sobre mecanismos da contratação da mão-de-obra estrangeira?
+                                    Esclarecimento sobre a legislação laboral vigente, nos termos da Lei nº 23/2007 de 1 de Agosto e o Regulamento sobre os Mecanismos e Procedimentos sobre a Contratação de cidadãos de nacionalidade estrangeira aprovado pelo Decreto nº 55/2008 de 30 de Dezembro. </p>
+                            </div>    
+
+                        </div>
+                        <div class="actions">
+                            <a href="#" class="check">
+                                <img src="assets/check.svg" alt="Marcar como lida">
+                                Marcar como lida
+                            </a>    
+                            <a href="#" class="delete">
+                                <img src="assets/trash.svg" alt="Excluir">
+                                Excluir
+                            </a>
+                        </div>
+                    </div>
+                    <!-- question-wrapper -->
+
+                    <div class="question-wrapper read">
+                        <div class="question-content">
+                            <div class="user">
+                                <img src="assets/user.svg" alt="user">
+                            </div>
+                            <div class="question">
+                                <p>A aula de back-end será hoje?</p>
+                            </div>    
+
+                        </div>
+                        <div class="actions">
+                               
                             <a href="#" class="delete">
                                 <img src="assets/trash.svg" alt="Excluir">
                                 Excluir
@@ -110,6 +179,32 @@
     
         </div>
         <!-- content -->
-    
+
+        <!-- modal -->
+        <div class="modal-wrapper">
+            <div class="modal">
+            <h2>Excluir pergunta</h2>
+            <p>tem certeza que você desja excluir esta questão</p>
+        
+            <form action="">
+                <label for="password" class="sr-only">Digite sua senha admin</label>
+                <input 
+                type="password" 
+                name="password" 
+                placeholder="Digite sua senha admin"
+                 id="password">
+
+                 <div class="buttons">
+                    <div class="button grey">Cancelar</div>
+                    <button class="red">Sim, excluir</button>    
+                    </div>
+            </form>
+            </div>
+            <!-- modal -->
+        </div>
+        <!-- modal-wrapper -->
+
+
+
     </body>
     </html>   
