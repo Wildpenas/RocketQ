@@ -1,0 +1,25 @@
+{
+  "name": "RocketQ",
+  "version": "1.0.0",
+  "description": "projecto desenvolvido para gerenciar questões direcionadas ao dono da pagina",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wildpenas/RocketQ.git"
+  },
+  "keywords": [],
+  "author": "wildPenas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wildpenas/RocketQ/issues"
+  },
+  "homepage": "https://github.com/Wildpenas/RocketQ#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
